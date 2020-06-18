@@ -35,9 +35,7 @@ for a,v in get_mode.items():
 
 if len(mode)>len(mode1) and len(mode2):
     print("mode is/are " + ', '.join(map(str,mode)) ) 
-elif len(mode1)>len(mode2) and len(mode):
+elif len(mode1)>len(mode) and len(mode2):
     print("mode is/are " + ', '.join(map(str,mode1)) ) 
-elif len(mode2)>len(mode1) and len(mode):
+elif len(mode2)>len(mode) and len(mode1):
     print("mode is/are " + ', '.join(map(str,mode2)) )     
-
-
